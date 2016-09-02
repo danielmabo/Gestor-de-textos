@@ -1,0 +1,153 @@
+afegir text "comprovacio de cadenes"
+autor "els profes"
+a?
+e!
+a b c d.
+a b a d.
+a a a d.
+a a a a.
+a, a, a, a.
+****
+
+triar text {comprovacio de cadenes}
+
+contingut ?
+
+frases "a" ?
+
+frases "a b" ?
+
+frases "c a" ?
+
+frases "a d" ?
+
+frases "a d e" ?
+
+frases "c d" ?
+
+frases "e a b" ?
+
+frases "c d e" ?
+
+frases "e f" ?
+
+frases "a a" ?
+
+frases "a c" ?
+
+afegir text "comprovacio taules de veritat"
+autor "els profes"
+a?
+e!
+a b.
+a, b; e?
+a a a a b b b b b.
+****
+
+triar text {comprovacio taules de veritat}
+
+contingut ?
+
+frases ({a} & {b}) ?
+
+frases ({c} & {b}) ?
+
+frases ({a} & {c}) ?
+
+frases ({c} & {d}) ?
+
+frases ({a} | {b}) ?
+
+frases ({c} | {b}) ?
+
+frases ({a} | {c}) ?
+
+frases ({c} | {d}) ?
+
+frases ({a} & {a}) ?
+
+frases ({d} & {d}) ?
+
+frases ({a} | {a}) ?
+
+frases ({d} | {d}) ?
+
+afegir text "comprovacio conjunts"
+autor "els profes"
+a?
+e!
+a b.
+a, b; e?
+a a a a b b b b b.
+****
+
+triar text {comprovacio conjunts}
+
+contingut ?
+
+frases {a} ?
+
+frases {a b} ?
+
+frases {b e} ?
+
+frases {c d} ?
+
+afegir text "comprovacio expressions mes complexes"
+autor "els profes"
+La casa es blanca, el rio gris, el estanque verde y el cielo azul.
+Siempre que iba al rio vestia de azul; y aunque aquel dia el cielo era gris, ella se sentia alegre.
+Siempre pasaba lo mismo; al principio la nieve era blanca pero se volvia gris.
+Cuando llegara la nieve?
+Que triste!
+Que alegre!
+****
+
+triar text {comprovacio expressions mes complexes}
+
+contingut ?
+
+frases {blanca gris verde azul} ?
+
+frases ({nieve} | ({gris azul} & {rio cielo})) ?
+
+frases ({alegre} & ({gris} | {triste})) ?
+
+frases (({triste} | {alegre}) & (({verde} | {blanca}) | {gris})) ?
+
+frases (({triste} & {alegre}) | (({azul} | {blanca}) & {gris})) ?
+
+afegir text "comprovacio de frases x y"
+autor "Pepeta Myself"
+In this work we tackle the problem of extending the logic of nested graph conditions with paths. This means, 
+for instance,  that we may state properties about the existence of paths between some given nodes.
+Being able to state properties about graphs and to reason about them is important in many areas of computer science, 
+where graphs play a relevant role. For instance, in software and system modeling, where models are described using 
+different graphical notations, graph properties may be used to describe properties of the given models, and 
+reasoning tools may be used for model validation. Similarly, in the context of graph databases, for instance, graph properties could be used to express integrity constraints or just to express queries to the database. In that context reasoning tools may allow us check these constraints or to formally define the search engine to satisfy these queries.
+Two kinds of approaches can be used to describe graph properties. On the one hand, we may use some standard logic, after encoding  some graph concepts in the logic. For instance, this is the approach of Courcelle, who studied a graph logic defined in terms of firstorder, or monadic second order, logic, extended with a predicate N for stating that n is a node, and with a predicate E, for stating that there is an edge from node n no m. The second kind of approach is based on expressing graph properties in terms of formulas that include graphs and graph morphisms. The most important example of this kind of approach is the logic of nested graph conditions, LNGC, introduced by Habel and Pennemann, which was proven to be equivalent to the firstorder logic of graphs of Courcelle. Moreover Pennemann showed that a specialized prover for their logic outperformed some standard provers, like Darwin or Vampire, when applied to graph formulas using Courcelles logic.
+As a main 
+contribution, in this work, we define a sound and complete tableau method for reasoning about this kind of properties.
+****
+
+triar text {comprovacio de frases x y}
+
+contingut ?
+
+frases 1 1 ?
+
+frases 13 13 ?
+
+frases 1 13 ?
+
+frases 0 3 ?
+
+frases 10 14 ?
+
+frases 5 2 ?
+
+frases -1 3 ?
+
+frases 5 9 ?
+
+sortir

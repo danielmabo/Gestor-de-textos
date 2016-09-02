@@ -1,0 +1,324 @@
+afegir text "ordre lexicografic"
+
+triar text {ordre lexicografic A}
+
+contingut ?
+1 cc cc cc cc bb bb bb bb b b b b aa aa aa aa.
+
+taula de frequencies ?
+b 4
+aa 4
+bb 4
+cc 4
+
+substitueix "bb" per "a"
+
+contingut ?
+1 cc cc cc cc a a a a b b b b aa aa aa aa.
+
+taula de frequencies ?
+a 4
+b 4
+aa 4
+cc 4
+
+substitueix "a" per "dd"
+
+contingut ?
+1 cc cc cc cc dd dd dd dd b b b b aa aa aa aa.
+
+taula de frequencies ?
+b 4
+aa 4
+cc 4
+dd 4
+
+afegir text "ordre longitud"
+
+triar text {ordre longitud B}
+
+taula de frequencies ?
+d 3
+cc 3
+bbb 3
+
+substitueix "d" per "aaaa"
+
+contingut ?
+1 bbb bbb bbb cc cc cc aaaa aaaa aaaa.
+
+taula de frequencies ?
+cc 3
+bbb 3
+aaaa 3
+
+substitueix "aaaa" per "d"
+
+contingut ?
+1 bbb bbb bbb cc cc cc d d d.
+
+taula de frequencies ?
+d 3
+cc 3
+bbb 3
+
+afegir text "substitucio per una paraula existent"
+
+triar text {substitucio per una paraula existent C}
+
+taula de frequencies ?
+d 9
+b 4
+aa 4
+bb 4
+cc 4
+
+substitueix "bb" per "aa"
+
+contingut ?
+1 d d d d d d d d d cc cc cc cc aa aa aa aa b b b b aa aa aa aa.
+
+taula de frequencies ?
+d 9
+aa 8
+b 4
+cc 4
+
+substitueix "aa" per "cc"
+
+contingut ?
+1 d d d d d d d d d cc cc cc cc cc cc cc cc b b b b cc cc cc cc.
+
+taula de frequencies ?
+cc 12
+d 9
+b 4
+
+substitueix "b" per "d"
+
+contingut ?
+1 d d d d d d d d d cc cc cc cc cc cc cc cc d d d d cc cc cc cc.
+
+taula de frequencies ?
+d 13
+cc 12
+
+afegir text "substitucio per la mateixa paraula"
+
+triar text {substitucio per la mateixa paraula D}
+
+contingut ?
+1 hola adeu hola hola.
+
+taula de frequencies ?
+hola 3
+adeu 1
+
+substitueix "hola" per "hola"
+
+contingut ?
+1 hola adeu hola hola.
+
+taula de frequencies ?
+hola 3
+adeu 1
+
+afegir text "substitucio de paraules amb signes de puntuacio a diferents frases"
+
+triar text {substitucio de paraules amb signes de puntuacio a diferents frases E}
+
+contingut ?
+1 Hola!
+2 Que tal?
+3 Jo molt be, i tu?
+4 Tambe be.
+5 Que be!
+6 Doncs be esta.
+7 a a a a a.
+
+taula de frequencies ?
+a 5
+be 4
+Que 2
+i 1
+Jo 1
+tu 1
+tal 1
+Hola 1
+esta 1
+molt 1
+Doncs 1
+Tambe 1
+
+substitueix "be" per "rebe"
+
+contingut ?
+1 Hola!
+2 Que tal?
+3 Jo molt rebe, i tu?
+4 Tambe rebe.
+5 Que rebe!
+6 Doncs rebe esta.
+7 a a a a a.
+
+taula de frequencies ?
+a 5
+rebe 4
+Que 2
+i 1
+Jo 1
+tu 1
+tal 1
+Hola 1
+esta 1
+molt 1
+Doncs 1
+Tambe 1
+
+afegir text "Text buit"
+
+triar text {Text buit F}
+
+contingut ?
+
+taula de frequencies ?
+
+substitueix "a" per "b"
+
+contingut ?
+
+taula de frequencies ?
+
+afegir text "Una unica paraula"
+
+triar text {Una unica paraula G}
+
+contingut ?
+1 hola.
+
+taula de frequencies ?
+hola 1
+
+substitueix "hola" per "adeu"
+
+contingut ?
+1 adeu.
+
+taula de frequencies ?
+adeu 1
+
+substitueix "adeu" per "adeu"
+
+contingut ?
+1 adeu.
+
+taula de frequencies ?
+adeu 1
+
+afegir text "Una sola paraula"
+
+triar text {Una sola paraula H}
+
+contingut ?
+1 hola, hola; hola hola.
+
+taula de frequencies ?
+hola 4
+
+substitueix "hola" per "adeu"
+
+contingut ?
+1 adeu, adeu; adeu adeu.
+
+taula de frequencies ?
+adeu 4
+
+substitueix "adeu" per "adeu"
+
+contingut ?
+1 adeu, adeu; adeu adeu.
+
+taula de frequencies ?
+adeu 4
+
+afegir text "Substituir casos extrems"
+
+triar text {Substituir casos extrems I}
+
+contingut ?
+1 aa bb cc.
+2 cc bb aa?
+3 bb aa cc!
+4 aa, bb; cc.
+5 cc: aa bb.
+
+taula de frequencies ?
+aa 5
+bb 5
+cc 5
+
+substitueix "aa" per "dd"
+
+contingut ?
+1 dd bb cc.
+2 cc bb dd?
+3 bb dd cc!
+4 dd, bb; cc.
+5 cc: dd bb.
+
+taula de frequencies ?
+bb 5
+cc 5
+dd 5
+
+substitueix "dd" per "aa"
+
+contingut ?
+1 aa bb cc.
+2 cc bb aa?
+3 bb aa cc!
+4 aa, bb; cc.
+5 cc: aa bb.
+
+taula de frequencies ?
+aa 5
+bb 5
+cc 5
+
+substitueix "aa" per "cc"
+
+contingut ?
+1 cc bb cc.
+2 cc bb cc?
+3 bb cc cc!
+4 cc, bb; cc.
+5 cc: cc bb.
+
+taula de frequencies ?
+cc 10
+bb 5
+
+substitueix "bb" per "cc"
+
+contingut ?
+1 cc cc cc.
+2 cc cc cc?
+3 cc cc cc!
+4 cc, cc; cc.
+5 cc: cc cc.
+
+taula de frequencies ?
+cc 15
+
+substitueix "cc" per "aa"
+
+contingut ?
+1 aa aa aa.
+2 aa aa aa?
+3 aa aa aa!
+4 aa, aa; aa.
+5 aa: aa aa.
+
+taula de frequencies ?
+aa 15
+

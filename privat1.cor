@@ -1,0 +1,379 @@
+afegir text "Disseny modular i disseny basat en objectes"
+
+afegir text "Millores de eficiencia en programes recursius i iteratius"
+
+afegir text "Tipus recursius de dades"
+
+afegir text "Disseny modular i disseny basat en objectes"
+error
+
+tots textos ?
+Els Coordinadors "Disseny modular i disseny basat en objectes"
+Els Coordinadors "Millores de eficiencia en programes recursius i iteratius"
+Els Coordinadors "Tipus recursius de dades"
+
+info ?
+error
+
+eliminar text
+error
+
+substitueix "nodes" per "punts"
+error
+
+textos autor "Els Coordinadors" ?
+"Disseny modular i disseny basat en objectes"
+"Millores de eficiencia en programes recursius i iteratius"
+"Tipus recursius de dades"
+
+cites ?
+error
+
+contingut ?
+error
+
+autor ?
+error
+
+nombre de frases ?
+error
+
+nombre de paraules ?
+error
+
+triar text {gestio cerca recorregut}
+
+contingut ?
+1 Introduccio a el us de tipus recursius de dades.
+2 El constructor de tipus punter i la gestio de memoria dinamica.
+3 Implementacio de estructures de dades enllacades mitjancant tipus recursius.
+4 Algoritmes iteratius i recursius per resoldre problemes de cerca i recorregut en estructures de dades enllacades accedint directament a la representaci basada en nodes.
+
+frases 4 3 ?
+error
+
+afegir cita 1 1
+
+afegir cita 3 2
+error
+
+cites ?
+EC1
+1 Introduccio a el us de tipus recursius de dades.
+Els Coordinadors "Tipus recursius de dades"
+
+info cita "EC1" ?
+Els Coordinadors "Tipus recursius de dades"
+1-1
+1 Introduccio a el us de tipus recursius de dades.
+
+info cita "EC2" ?
+error
+
+eliminar cita "EC2"
+error
+
+afegir cita 1 1
+error
+
+triar text {Millores}
+
+afegir cita 1 3
+
+info cita "EC2" ?
+Els Coordinadors "Millores de eficiencia en programes recursius i iteratius"
+1-3
+1 Deteccio de la repeticio de calculs en programes recursius i iteratius.
+2 Immersions de eficiencia: nous parametres o resultats en operacions recursives per millorar la eficiencia.
+3 Noves variables locals que reusen el seu valor anterior en operacions iteratives per millorar la eficiencia.
+
+triar text {Tipus recursius de dades}
+
+contingut ?
+1 Introduccio a el us de tipus recursius de dades.
+2 El constructor de tipus punter i la gestio de memoria dinamica.
+3 Implementacio de estructures de dades enllacades mitjancant tipus recursius.
+4 Algoritmes iteratius i recursius per resoldre problemes de cerca i recorregut en estructures de dades enllacades accedint directament a la representaci basada en nodes.
+
+eliminar text
+
+tots textos ?
+Els Coordinadors "Disseny modular i disseny basat en objectes"
+Els Coordinadors "Millores de eficiencia en programes recursius i iteratius"
+
+afegir text "Bon Dia"
+
+afegir text "The fall of the house of Usher"
+
+afegir text "Wuthering Heights"
+
+triar text {Colom Elena}
+
+tots textos ?
+Edgar Allan Poe "The fall of the house of Usher"
+Elena Colom "Bon Dia"
+Els Coordinadors "Disseny modular i disseny basat en objectes"
+Els Coordinadors "Millores de eficiencia en programes recursius i iteratius"
+Emily Bronte "Wuthering Heights"
+
+tots autors ?
+Edgar Allan Poe 1 9 111
+Elena Colom 1 4 9
+Els Coordinadors 2 11 74
+Emily Bronte 1 9 121
+
+afegir cita 2 4
+
+totes cites ?
+EC1
+1 Introduccio a el us de tipus recursius de dades.
+Els Coordinadors "Tipus recursius de dades"
+EC2
+1 Deteccio de la repeticio de calculs en programes recursius i iteratius.
+2 Immersions de eficiencia: nous parametres o resultats en operacions recursives per millorar la eficiencia.
+3 Noves variables locals que reusen el seu valor anterior en operacions iteratives per millorar la eficiencia.
+Els Coordinadors "Millores de eficiencia en programes recursius i iteratius"
+EC3
+2 Fa bon dia.
+3 Fins despres.
+4 Adeu.
+Elena Colom "Bon Dia"
+
+eliminar cita "EC2"
+
+afegir cita 2 3
+
+totes cites ?
+EC1
+1 Introduccio a el us de tipus recursius de dades.
+Els Coordinadors "Tipus recursius de dades"
+EC3
+2 Fa bon dia.
+3 Fins despres.
+4 Adeu.
+Elena Colom "Bon Dia"
+EC4
+2 Fa bon dia.
+3 Fins despres.
+Elena Colom "Bon Dia"
+
+eliminar cita "EC4"
+
+afegir cita 3 4
+
+totes cites ?
+EC1
+1 Introduccio a el us de tipus recursius de dades.
+Els Coordinadors "Tipus recursius de dades"
+EC3
+2 Fa bon dia.
+3 Fins despres.
+4 Adeu.
+Elena Colom "Bon Dia"
+EC5
+3 Fins despres.
+4 Adeu.
+Elena Colom "Bon Dia"
+
+afegir text "El pas del temps. Reflexions"
+
+tots textos ?
+Ana Bo "El pas del temps. Reflexions"
+Edgar Allan Poe "The fall of the house of Usher"
+Elena Colom "Bon Dia"
+Els Coordinadors "Disseny modular i disseny basat en objectes"
+Els Coordinadors "Millores de eficiencia en programes recursius i iteratius"
+Emily Bronte "Wuthering Heights"
+
+afegir cita 1 1
+
+triar text {temps Bo Pol}
+
+afegir cita 2 2
+
+totes cites ?
+AB1
+2 Ho diu Miquel Marti i Pol en el seu poema.
+Ana Bo "El pas del temps. Reflexions"
+EC1
+1 Introduccio a el us de tipus recursius de dades.
+Els Coordinadors "Tipus recursius de dades"
+EC3
+2 Fa bon dia.
+3 Fins despres.
+4 Adeu.
+Elena Colom "Bon Dia"
+EC5
+3 Fins despres.
+4 Adeu.
+Elena Colom "Bon Dia"
+EC6
+1 Hola, com estas?
+Elena Colom "Bon Dia"
+
+eliminar cita "AB1"
+
+afegir cita 1 1
+
+totes cites ?
+AB2
+1 Ara es dema.
+Ana Bo "El pas del temps. Reflexions"
+EC1
+1 Introduccio a el us de tipus recursius de dades.
+Els Coordinadors "Tipus recursius de dades"
+EC3
+2 Fa bon dia.
+3 Fins despres.
+4 Adeu.
+Elena Colom "Bon Dia"
+EC5
+3 Fins despres.
+4 Adeu.
+Elena Colom "Bon Dia"
+EC6
+1 Hola, com estas?
+Elena Colom "Bon Dia"
+
+eliminar text
+
+tots textos ?
+Edgar Allan Poe "The fall of the house of Usher"
+Elena Colom "Bon Dia"
+Els Coordinadors "Disseny modular i disseny basat en objectes"
+Els Coordinadors "Millores de eficiencia en programes recursius i iteratius"
+Emily Bronte "Wuthering Heights"
+
+tots autors ?
+Edgar Allan Poe 1 9 111
+Elena Colom 1 4 9
+Els Coordinadors 2 11 74
+Emily Bronte 1 9 121
+
+triar text {Allan disease happy}
+
+contingut ?
+1 The story has been described by an unnamed narrator.
+2 He is the childhood friend of Roderick Usher, who urgently invites him because he remains sad due to his illness and he needs a companion.
+3 Usher lives with his sister, Lady Madeline in a very old house.
+4 These twin brother and sister are the only remaining members of a well born family.
+5 But they are suffering from a mysterious disease.
+6 This strange disease has been imposed on their family like an affliction.
+7 The narrator arrives and stays in their home.
+8 He tries his best to make his friend happy, but does not succeed.
+9 Doctors are unable to find any treatment for him.
+
+afegir cita 4 6
+
+totes cites ?
+AB2
+1 Ara es dema.
+Ana Bo "El pas del temps. Reflexions"
+EAP1
+4 These twin brother and sister are the only remaining members of a well born family.
+5 But they are suffering from a mysterious disease.
+6 This strange disease has been imposed on their family like an affliction.
+Edgar Allan Poe "The fall of the house of Usher"
+EC1
+1 Introduccio a el us de tipus recursius de dades.
+Els Coordinadors "Tipus recursius de dades"
+EC3
+2 Fa bon dia.
+3 Fins despres.
+4 Adeu.
+Elena Colom "Bon Dia"
+EC5
+3 Fins despres.
+4 Adeu.
+Elena Colom "Bon Dia"
+EC6
+1 Hola, com estas?
+Elena Colom "Bon Dia"
+
+triar text {Wuthering Heights}
+
+contingut ?
+1 The story is all about the life of a mysterious person Heathcliff.
+2 He was an orphan and adopted by a rich man called Mister Earnshaw, who was the owner of Wuthering Heights.
+3 He gave him a lot of love like a son.
+4 The daughter Catherine also comes closer to Heathcliff.
+5 But the son of Earnshaw Hindley, always hates him.
+6 After the death of Earnshaw Hindley becomes more cruel to Heathcliff and treats him like a servant.
+7 On the other hand, Catherine is involved with another man, Edgar Linton.
+8 Now Heathcliff leaves the Wuthering Heights and runs away.
+9 After three years he returns as a mysterious wealthy person, and starts taking the revenge from those whom he thinks have destroyed his life.
+
+afegir cita 1 5
+
+totes cites ?
+AB2
+1 Ara es dema.
+Ana Bo "El pas del temps. Reflexions"
+EAP1
+4 These twin brother and sister are the only remaining members of a well born family.
+5 But they are suffering from a mysterious disease.
+6 This strange disease has been imposed on their family like an affliction.
+Edgar Allan Poe "The fall of the house of Usher"
+EB1
+1 The story is all about the life of a mysterious person Heathcliff.
+2 He was an orphan and adopted by a rich man called Mister Earnshaw, who was the owner of Wuthering Heights.
+3 He gave him a lot of love like a son.
+4 The daughter Catherine also comes closer to Heathcliff.
+5 But the son of Earnshaw Hindley, always hates him.
+Emily Bronte "Wuthering Heights"
+EC1
+1 Introduccio a el us de tipus recursius de dades.
+Els Coordinadors "Tipus recursius de dades"
+EC3
+2 Fa bon dia.
+3 Fins despres.
+4 Adeu.
+Elena Colom "Bon Dia"
+EC5
+3 Fins despres.
+4 Adeu.
+Elena Colom "Bon Dia"
+EC6
+1 Hola, com estas?
+Elena Colom "Bon Dia"
+
+info cita "AB2" ?
+Ana Bo "El pas del temps. Reflexions"
+1-1
+1 Ara es dema.
+
+info cita "EC6" ?
+Elena Colom "Bon Dia"
+1-1
+1 Hola, com estas?
+
+eliminar cita "AB2"
+
+eliminar cita "EC6"
+
+totes cites ?
+EAP1
+4 These twin brother and sister are the only remaining members of a well born family.
+5 But they are suffering from a mysterious disease.
+6 This strange disease has been imposed on their family like an affliction.
+Edgar Allan Poe "The fall of the house of Usher"
+EB1
+1 The story is all about the life of a mysterious person Heathcliff.
+2 He was an orphan and adopted by a rich man called Mister Earnshaw, who was the owner of Wuthering Heights.
+3 He gave him a lot of love like a son.
+4 The daughter Catherine also comes closer to Heathcliff.
+5 But the son of Earnshaw Hindley, always hates him.
+Emily Bronte "Wuthering Heights"
+EC1
+1 Introduccio a el us de tipus recursius de dades.
+Els Coordinadors "Tipus recursius de dades"
+EC3
+2 Fa bon dia.
+3 Fins despres.
+4 Adeu.
+Elena Colom "Bon Dia"
+EC5
+3 Fins despres.
+4 Adeu.
+Elena Colom "Bon Dia"
+

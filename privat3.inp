@@ -1,0 +1,209 @@
+afegir text "ordre lexicografic"
+autor "autor A"
+cc cc cc cc bb bb bb bb b b b b aa aa aa aa.
+****
+
+triar text {ordre lexicografic A}
+
+contingut ?
+
+taula de frequencies ?
+
+substitueix "bb" per "a"
+
+contingut ?
+
+taula de frequencies ?
+
+substitueix "a" per "dd"
+
+contingut ?
+
+taula de frequencies ?
+
+afegir text "ordre longitud"
+autor "autor B"
+bbb bbb bbb cc cc cc d d d.
+****
+
+triar text {ordre longitud B}
+
+taula de frequencies ?
+
+substitueix "d" per "aaaa"
+
+contingut ?
+
+taula de frequencies ?
+
+substitueix "aaaa" per "d"
+
+contingut ?
+
+taula de frequencies ?
+
+afegir text "substitucio per una paraula existent"
+autor "autor C"
+d d d d d d d d d cc cc cc cc bb bb bb bb b b b b aa aa aa aa.
+****
+
+triar text {substitucio per una paraula existent C}
+
+taula de frequencies ?
+
+substitueix "bb" per "aa"
+
+contingut ?
+
+taula de frequencies ?
+
+substitueix "aa" per "cc"
+
+contingut ?
+
+taula de frequencies ?
+
+substitueix "b" per "d"
+
+contingut ?
+
+taula de frequencies ?
+
+afegir text "substitucio per la mateixa paraula"
+autor "autor D"
+hola adeu hola hola.
+****
+
+triar text {substitucio per la mateixa paraula D}
+
+contingut ?
+
+taula de frequencies ?
+
+substitueix "hola" per "hola"
+
+contingut ?
+
+taula de frequencies ?
+
+afegir text "substitucio de paraules amb signes de puntuacio a diferents frases"
+autor "autor E"
+Hola! Que tal? Jo molt be, i tu? Tambe be. Que be! Doncs be esta. a a a a a.
+****
+
+triar text {substitucio de paraules amb signes de puntuacio a diferents frases E}
+
+contingut ?
+
+taula de frequencies ?
+
+substitueix "be" per "rebe"
+
+contingut ?
+
+taula de frequencies ?
+
+afegir text "Text buit"
+autor "autor F"
+****
+
+triar text {Text buit F}
+
+contingut ?
+
+taula de frequencies ?
+
+substitueix "a" per "b"
+
+contingut ?
+
+taula de frequencies ?
+
+afegir text "Una unica paraula"
+autor "autor G"
+hola.
+****
+
+triar text {Una unica paraula G}
+
+contingut ?
+
+taula de frequencies ?
+
+substitueix "hola" per "adeu"
+
+contingut ?
+
+taula de frequencies ?
+
+substitueix "adeu" per "adeu"
+
+contingut ?
+
+taula de frequencies ?
+
+afegir text "Una sola paraula"
+autor "autor H"
+hola, hola; hola hola.
+****
+
+triar text {Una sola paraula H}
+
+contingut ?
+
+taula de frequencies ?
+
+substitueix "hola" per "adeu"
+
+contingut ?
+
+taula de frequencies ?
+
+substitueix "adeu" per "adeu"
+
+contingut ?
+
+taula de frequencies ?
+
+afegir text "Substituir casos extrems"
+autor "autor I"
+aa bb cc. cc bb aa? bb aa cc! aa, bb; cc. cc: aa bb.
+****
+
+triar text {Substituir casos extrems I}
+
+contingut ?
+
+taula de frequencies ?
+
+substitueix "aa" per "dd"
+
+contingut ?
+
+taula de frequencies ?
+
+substitueix "dd" per "aa"
+
+contingut ?
+
+taula de frequencies ?
+
+substitueix "aa" per "cc"
+
+contingut ?
+
+taula de frequencies ?
+
+substitueix "bb" per "cc"
+
+contingut ?
+
+taula de frequencies ?
+
+substitueix "cc" per "aa"
+
+contingut ?
+
+taula de frequencies ?
+
+sortir

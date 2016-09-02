@@ -1,0 +1,166 @@
+afegir text "Disseny modular i disseny basat en objectes"
+autor "Els Coordinadors"
+Abstraccio i la seva necessitat. Descomposicio funcional i per dades. Moduls. Ocultacio de la informacio. Encapsulat. Fases del disseny modular: distincio entre especificacio i implementacio. Tipus de moduls i el seu us. Biblioteques. 
+****
+
+afegir text "Millores de eficiencia en programes recursius i iteratius"
+autor "Els Coordinadors"
+Deteccio de la repeticio de calculs en programes recursius i iteratius. Immersions de eficiencia: nous parametres o resultats en operacions recursives per millorar la eficiencia. Noves variables locals que reusen el seu valor anterior en operacions iteratives per millorar la eficiencia.
+****
+
+afegir text "Tipus recursius de dades"
+autor "Els Coordinadors"
+Introduccio a el us de tipus recursius de dades. El constructor de tipus punter i la gestio de memoria dinamica. Implementacio de estructures de dades enllacades mitjancant tipus recursius. Algoritmes iteratius i recursius per resoldre problemes de cerca i recorregut en estructures de dades enllacades accedint directament a la representaci basada en nodes.
+****
+
+afegir text "Disseny modular i disseny basat en objectes"
+autor "Els Coordinadors"
+Principis basics de disseny basat en objectes: classes i objectes; camps i metodes. Implementacio de dissenys modulars en C. Compilacio separada i muntatge. Depuracio, prova i documentacio de programes modulars.
+****
+
+tots textos ?
+
+info ?
+
+eliminar text
+
+substitueix "nodes" per "punts"
+
+textos autor "Els Coordinadors" ?
+
+cites ?
+
+contingut ?
+
+autor ?
+
+nombre de frases ?
+
+nombre de paraules ?
+
+triar text {gestio cerca recorregut}
+
+contingut ?
+
+frases 4 3 ?
+
+afegir cita 1 1
+
+afegir cita 3 2
+
+cites ?
+
+info cita "EC1" ?
+
+info cita "EC2" ?
+
+eliminar cita "EC2"
+
+afegir cita 1 1
+
+triar text {Millores}
+
+afegir cita 1 3
+
+info cita "EC2" ?
+
+triar text {Tipus recursius de dades}
+
+contingut ?
+
+eliminar text
+
+tots textos ?
+
+afegir text "Bon Dia"
+autor "Elena Colom"
+Hola, com estas? Fa bon dia. Fins despres. Adeu.
+****
+
+afegir text "The fall of the house of Usher"
+autor "Edgar Allan Poe"
+The story has been described by an unnamed narrator. He is the childhood friend of Roderick Usher, who urgently invites him because he remains sad due to his illness and he needs a companion. Usher lives with his sister, Lady Madeline in a very old house. These twin brother and sister are the only remaining members of a well born family. But they are suffering from a mysterious disease. This strange disease has been imposed on their family like an affliction.
+The narrator arrives and stays in their home. He tries his best to make his friend happy, but does not succeed. Doctors are unable to find any treatment for him.
+****
+
+afegir text "Wuthering Heights"
+autor "Emily Bronte"
+The story is all about the life of a mysterious person Heathcliff. He was an orphan and adopted by a rich man called Mister Earnshaw, who was the owner of Wuthering Heights. He gave him a lot of love like a son. The daughter Catherine also comes closer to Heathcliff. But the son of Earnshaw Hindley, always hates him. After the death of Earnshaw Hindley becomes more cruel to Heathcliff and treats him like a servant. On the other hand, Catherine is involved with another man, Edgar Linton. Now Heathcliff leaves the Wuthering Heights and runs away. After three years he returns as a mysterious wealthy person, and starts taking the revenge from those whom he thinks have destroyed his life.
+****
+
+triar text {Colom Elena}
+
+tots textos ?
+
+tots autors ?
+
+afegir cita 2 4
+
+totes cites ?
+
+eliminar cita "EC2"
+
+afegir cita 2 3
+
+totes cites ?
+
+eliminar cita "EC4"
+
+afegir cita 3 4
+
+totes cites ?
+
+afegir text "El pas del temps. Reflexions"
+autor "Ana Bo"
+Ara es dema. Ho diu Miquel Marti i Pol en el seu poema.
+****
+
+tots textos ?
+
+afegir cita 1 1
+
+triar text {temps Bo Pol}
+
+afegir cita 2 2
+
+totes cites ?
+
+eliminar cita "AB1"
+
+afegir cita 1 1
+
+totes cites ?
+
+eliminar text
+
+tots textos ?
+
+tots autors ?
+
+triar text {Allan disease happy}
+
+contingut ?
+
+afegir cita 4 6
+
+totes cites ?
+
+triar text {Wuthering Heights}
+
+contingut ?
+
+afegir cita 1 5
+
+totes cites ?
+
+info cita "AB2" ?
+
+info cita "EC6" ?
+
+eliminar cita "AB2"
+
+eliminar cita "EC6"
+
+totes cites ?
+
+sortir
